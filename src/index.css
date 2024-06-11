@@ -1,0 +1,95 @@
+.navbar, footer{
+  background-color: #2c3e50;
+}
+.icon{
+  width: 40px;
+  height: 40px;
+  border:1px solid #fff;
+  border-radius: 50%;
+}
+.footer-feet{
+  background-color: #1a252f;
+}
+header{
+  background-color: #1abc9c;
+}
+.icons{
+  cursor: pointer;
+}
+.icon2{
+  position: relative;
+}
+.icon2::after{
+  content: "";
+  position: absolute;
+  top: 32%;
+  left: 55%;
+  height: 4px;
+  width: 80px;
+  background-color: #fff;
+}
+.icon2::before{
+  content: "";
+  position: absolute;
+  top: 32%;
+  right: 55%;
+  height: 4px;
+  width: 80px;
+  background-color: #fff;
+}
+.about{
+  background-color: #1abc9c;
+}
+.portfolio-item{
+  position: relative;
+}
+.fa-plus{
+  font-size: 70px;
+  font-weight: bolder;
+  color:#fff ;
+}
+
+.plus{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1abc9c;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+.portfolio-item:hover .plus{
+  opacity: 1;
+}
+.send{
+  color: #fff;
+  background-color: #1abc9c;
+
+}
+.icon3{
+  position: relative;
+}
+
+.icon3::after {
+  content: "";
+  position: absolute;
+  top: 32%;
+  left: 52%;
+  height: 4px;
+  width: 80px;
+  background-color: black;
+}
+
+.icon3::before {
+  content: "";
+  position: absolute;
+  top: 32%;
+  right: 52%;
+  height: 4px;
+  width: 80px;
+  background-color: black;
+}
